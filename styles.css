@@ -3,16 +3,18 @@
 .container {
     display: grid;
     justify-content: space-evenly;
-    grid-gap: 10px;
+    grid-gap: 2px;
     grid-template-columns: repeat(16, auto);
     padding: 0px;
     text-align: center;
+
   }
+
 
 html {
    /* border box allows us to add padding and borders to elements
   without changing size  */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-image: linear-gradient(to bottom right, yellow, purple);
 }
 
@@ -23,4 +25,9 @@ html {
 
 .itemHover {
   background-color: red;
+}
+
+.userInput {
+  padding-bottom: 20px;
+  text-align: center;
 }
